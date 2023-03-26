@@ -7,4 +7,17 @@ This is a web based not taking app that allows the user to create, store and del
 This application was developed using Node.js and primarily express.
 
 ## Instructions:
-There is no installation necessary for this app. Simply go to the following Heroku link to use the app. 
+There is no installation necessary for this app. Simply go to the following Heroku link to use the app. https://justins-note-app.herokuapp.com/
+
+
+
+
+![Landing Page of Note taking app](../../../../../Pictures/note%20taker/home%20page.png)
+
+
+
+![Home page of app where notes can be entered](../../../../../Pictures/note%20taker/notes%20page.png)
+
+
+
+![Example of a note being saved and able to be deleted](../../../../../Pictures/note%20taker/test%20note.png)
