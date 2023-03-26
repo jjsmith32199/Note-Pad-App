@@ -1,7 +1,10 @@
 const express = require('express');
-const app = express();
 const path = require('path');
 const api = require('./routes/index.js');
+
+const app = express();
+
+
 const PORT = process.env.PORT || 3001;
 
 //declare middleware
@@ -12,18 +15,18 @@ app.use('/api', api);
 app.use(express.static('public'));
 
 
-app.get('/notes', (req, res) => {
+app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, './public/index.html'))
 });
 
 
 //declare path to notes
 app.get('/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, './public/notes.html'))
+    res.sendFile(path.join(__dirname, './public/notes.html'));
 });
 
 app.get('*/', (req, res) => {
-    res.sendFile(path.join(__dirname, './public/index.html'))
+    res.sendFile(path.join(__dirname, './public/index.html'));
 });
 
 
@@ -31,5 +34,5 @@ app.get('*/', (req, res) => {
 
 
 app.listen(PORT, () => {
-    console.log(`Listening at http://localhost:${PORT}`)
+    console.log(`Listening at http://localhost:${PORT}`);
 });
