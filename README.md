@@ -12,12 +12,12 @@ There is no installation necessary for this app. Simply go to the following Hero
 
 
 
-![Landing Page of Note taking app](../../../../../Pictures/note%20taker/home%20page.png)
+![Landing Page of Note taking app](./Assets/home%20page.png)
 
 
 
-![Home page of app where notes can be entered](../../../../../Pictures/note%20taker/notes%20page.png)
+![Home page of app where notes can be entered](./Assets/notes%20page.png)
 
 
 
-![Example of a note being saved and able to be deleted](../../../../../Pictures/note%20taker/test%20note.png)
+![Example of a note being saved and able to be deleted](./Assets/test%20note.png)
